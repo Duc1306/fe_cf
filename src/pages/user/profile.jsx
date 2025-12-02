@@ -15,7 +15,7 @@ export default function ProfilePage() {
   })
 
   return (
-    <UserLayout>
+    <>
       <div className="max-w-2xl">
         <div className="flex items-center gap-3 mb-6">
           <Link href="/user/dashboard">
@@ -69,6 +69,6 @@ export default function ProfilePage() {
           </Card>
         </div>
       </div>
-    </UserLayout>
+    </>
   )
 }

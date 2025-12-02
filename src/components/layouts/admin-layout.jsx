@@ -4,6 +4,7 @@ import { Coffee, Menu, X, LayoutDashboard, Users, Store, FileText, LogOut } from
 import { Link } from "react-router-dom";
 import { useState } from "react"
 import { Button } from "@/components/ui/button"
+import { Outlet } from "react-router-dom";
 
 export function AdminLayout({ children }) {
   const [sidebarOpen, setSidebarOpen] = useState(true)
@@ -54,8 +55,9 @@ export function AdminLayout({ children }) {
         </header>
 
         {/* Content */}
-        <main className="flex-1 overflow-auto p-6">{children}</main>
+        <main className="flex-1 overflow-auto p-6">{children} <Outlet/></main>
       </div>
+      
     </div>
   )
 }

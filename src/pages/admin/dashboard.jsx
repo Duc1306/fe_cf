@@ -39,7 +39,7 @@ export default function AdminDashboard() {
   ]
 
   return (
-    <AdminLayout>
+    <>
       <div className="space-y-6">
         {/* Stats Cards */}
         <div className="grid md:grid-cols-4 gap-4">
@@ -107,6 +107,6 @@ export default function AdminDashboard() {
           </ResponsiveContainer>
         </Card>
       </div>
-    </AdminLayout>
+    </>
   )
 }

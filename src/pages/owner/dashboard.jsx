@@ -38,7 +38,7 @@ export default function OwnerDashboard() {
   ];
 
   return (
-    <OwnerLayout>
+    <>
       <div className="space-y-6">
         {/* Stats */}
         <div className="grid md:grid-cols-3 gap-4">
@@ -129,6 +129,6 @@ export default function OwnerDashboard() {
           </Card>
         </div>
       </div>
-    </OwnerLayout>
+    </>
   );
 }

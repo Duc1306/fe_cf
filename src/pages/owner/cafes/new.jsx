@@ -25,7 +25,7 @@ export default function NewCafePage() {
   }
 
   return (
-    <OwnerLayout>
+    <>
       <div className="max-w-2xl">
         <h1 className="text-3xl font-bold mb-6 text-foreground">新規カフェ作成</h1>
 
@@ -140,6 +140,6 @@ export default function NewCafePage() {
           </div>
         </form>
       </div>
-    </OwnerLayout>
+    </>
   )
 }

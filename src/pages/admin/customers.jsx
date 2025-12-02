@@ -19,7 +19,7 @@ export default function CustomersPage() {
   ]
 
   return (
-    <AdminLayout>
+
       <div className="space-y-6">
         <h1 className="text-3xl font-bold text-foreground">顧客管理</h1>
 
@@ -96,6 +96,6 @@ export default function CustomersPage() {
           </div>
         </div>
       </div>
-    </AdminLayout>
+
   )
 }

@@ -1,7 +1,7 @@
 "use client"
 
 import { Coffee, Menu, X, LayoutDashboard, Search, MessageSquare, Heart, Tag, User, LogOut } from "lucide-react"
-import { Link } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 import { useState } from "react"
 import { Button } from "@/components/ui/button"
 
@@ -62,7 +62,9 @@ export function UserLayout({ children }) {
         </header>
 
         {/* Content */}
-        <main className="flex-1 overflow-auto p-6">{children}</main>
+        <main className="flex-1 overflow-auto p-6">{children}
+          <Outlet />
+        </main>
       </div>
     </div>
   )

@@ -41,7 +41,7 @@ export default function CafeSearchPage() {
   ];
 
   return (
-    <UserLayout>
+    <>
       <div className="space-y-6">
         {/* Title */}
         <div>
@@ -163,6 +163,6 @@ export default function CafeSearchPage() {
           </div>
         </div>
       </div>
-    </UserLayout>
+    </>
   );
 }

@@ -26,7 +26,7 @@ export default function UserDashboard() {
   ]
 
   return (
-    <UserLayout>
+    <>
       <div className="space-y-6">
         {/* Stats Cards */}
         <div className="grid md:grid-cols-3 gap-4">
@@ -111,6 +111,6 @@ export default function UserDashboard() {
           </Card>
         </div>
       </div>
-    </UserLayout>
+    </>
   )
 }
